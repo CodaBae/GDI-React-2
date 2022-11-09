@@ -1,0 +1,31 @@
+.homeCon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.homeFirstCon h1 {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 140%;
+    color: #080B13;
+    text-align: center;
+}
+
+.homeFirstCon h3 {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    color: #080B13;
+    text-align: center;
+}
+
+
+.homeSecCon{
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+}

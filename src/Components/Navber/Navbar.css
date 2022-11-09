@@ -1,0 +1,24 @@
+.navCon {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 4%;
+}
+
+.midCon {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.midCon p {
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 120%;
+    color: #080B13;
+}
+
+.logoCon {}
+
+.lastCon {}
