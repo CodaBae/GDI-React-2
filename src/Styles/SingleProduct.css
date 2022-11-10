@@ -1,0 +1,107 @@
+.productTag {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 120%;
+    color: #080B13;
+    margin: 0;
+    margin-left: 4%;
+
+}
+
+.sinProductImgCon {
+    width: 48%;
+    background: #F1F1EF;
+    display: flex;
+    justify-content: center;
+    height: 75vh;
+}
+
+.sinProductDesCon{
+    width: 48%;
+}
+
+.sinProductHeading {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 135%;
+
+    color: #000000;
+}
+
+.sinProductPrice {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 135%;
+    color: #000000;
+}
+
+.sinProductButton {
+    width: 232px;
+    height: 50px;
+
+    /* Gray */
+
+    background: rgba(60, 55, 55, 0.8);
+    opacity: 0.5;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    /* identical to box height, or 26px */
+
+    text-align: center;
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+.sinProductDesHeading {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    /* identical to box height, or 26px */
+
+
+    /* Primary */
+
+    color: #000000;
+
+}
+
+.sinProductDes {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+
+
+    /* Primary */
+
+    color: #000000;
+
+}
+
+.sinProductCon{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 4%;
+}
