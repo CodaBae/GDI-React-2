@@ -1,0 +1,13 @@
+.cartCon{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 4%;
+}
+
+.formCon{
+width: 48%;
+}
+.orderCardCon{
+    width: 48%;
+
+}

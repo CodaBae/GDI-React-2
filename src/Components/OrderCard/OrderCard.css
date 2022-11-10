@@ -1,0 +1,14 @@
+.orderCardGeneralCon {
+    display: flex;
+}
+
+.orderCardImgCon {
+    width: 183px;
+    height: 203px;
+    background: #F1F1EF;
+}
+
+.orderCardImgCon img {
+    width: 100%;
+
+}
