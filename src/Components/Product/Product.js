@@ -6,11 +6,11 @@ const Product = ({data}) => {
     return (
         <div>
             <div className="productFristCon">
-                <img src={data.img} alt='foto-1'/>
+                <img src={data.image[0]} alt='foto-1'/>
             </div>
             <div className="ProductSecCon">
                 <h3>{data.name}</h3>
-                <h1>{data.price}</h1>
+                <h1>${data.price}</h1>
             </div>
 
         </div>
