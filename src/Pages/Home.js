@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../Styles/Home.css"
 import Product from "../Components/Product/Product";
 import axios from "axios";
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 const Home = () => {
@@ -17,7 +17,8 @@ const Home = () => {
                 console.log(error)
             }
         })()
-    },[])
+    }, [])
+
 
 
     return (
@@ -30,12 +31,14 @@ const Home = () => {
             </div>
             <div className="homeSecCon">
                 {
-                    product.map((item, id) =>(
-                        <Link to='/single-product'>
-                         <Product data={item} key={id} />
+                    product.map((item) => (
+
+                        <Link to={`/single-product/${item._id}`}>
+                            <Product data={item} key={item._id} />
                         </Link>
+
                     )
-                       )
+                    )
                 }
 
             </div>
